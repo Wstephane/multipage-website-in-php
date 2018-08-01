@@ -26,7 +26,7 @@
 
     <h1>Contact</h1>
 
-    <form class="form-horizontal" role="form">
+    <form class="form-horizontal" role="form" method="POST" action="upload2.php" enctype="multipart/form-data">
         <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
             <label class="form-check-label" for="inlineCheckbox1">Mme</label>
@@ -40,48 +40,59 @@
             <label class="form-check-label" for="inlineCheckbox3">Mr.</label>
         </div>
         <div class="form-group">
-            <label for="formGroupExampleInput">Nom</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nom">
+            <label for="nom">Nom</label>
+            <input type="text" class="form-control" id="nom" placeholder="nom">
         </div>
         <div class="form-group">
-            <label for="formGroupExampleInput2">Prénom</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Prénom">
+            <label for="prenom">Prénom</label>
+            <input type="text" class="form-control" id="prenom" placeholder="Prénom">
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="email">
         </div>
         <div class="form-row align-items-center">
             <div class="col-auto my-1">
-                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                    <option selected>Demande d'information</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
+                <label class="mr-sm-2" for="preference">Preference</label>
+                <select class="custom-select mr-sm-2" id="preference">
+                    <option selected>Devenir bénèvole</option>
+                    <option value="1">Demande d'information</option>
+                    <option value="2">Informatino sur les dons</option>
                     <option value="3">Three</option>
                 </select>
             </div>
         </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Votre message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="message">Votre message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
         </div>
         <div class="form-group">
-            <label for="exampleFormControlFile1">Document</label>
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            <label for="fichier">Document</label>
+            <input type="hidden" name="MAX_FILE_SIZE" value="100000">
+            <input type="file" class="form-control-file" id="fichier">
         </div>
         <div class="form-check form-check-inline">
             <p>Format de réponse souhaité</p>
-            <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">HTML</label>
+            <input class="form-check-input" type="radio" id="formatFichier" value="option1">
+            <label class="form-check-label" for="formatFichier">HTML</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">Texte</label>
+            <input class="form-check-input" type="radio" id="formatFichier2" value="option2">
+            <label class="form-check-label" for="formatFichier2">Texte</label>
         </div>
         <button type="submit" class="btn btn-default">Contactez-moi</button>
-
     </form>
+
+    <?php
+
+    // Sanitisation
+
+    // $nom = filter_var($_POST['nom'], )
+    // $prenom = filter_var($POST['prenom'], )
+    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+
+
+    ?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
