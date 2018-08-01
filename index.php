@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/business-casual.min.css" rel="stylesheet">
+    <link href="css/business-casual.css" rel="stylesheet">
 
   </head>
 
@@ -92,7 +92,7 @@
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">Par chat</span>
               </h2>
-              <p class="mb-0">Consultez le site internet. <a href="https://www.sos-amitie.com/web/internet/chat">Le Chat-Accueil</a> est accessible tous les jours de 13h à 01 heure. Ce service est également gratuit.</p>
+              <p class="mb-0">Consultez le site internet.<span> <a href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Le Chat-Accueil</a></span> est accessible tous les jours de 13h à 01 heure. Ce service est également gratuit.</p>
               <p class="mb-0">Télé-Accueil Bruxelles offre avant tout un espace de parole et d’écoute. L’écoutant vous accompagne dans votre cheminement et vous aide à clarifier votre situation. Il peut aussi éventuellement vous informer et vous orienter vers d’autres services d’aide. Il ne s’agit donc pas de psychothérapie même si parler peut conduire à un certain mieux-être.</p>
             </div>
           </div>
