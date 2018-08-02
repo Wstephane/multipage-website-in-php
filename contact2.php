@@ -88,27 +88,74 @@
 
     <?php
 
-    // Sanitisation
+        // Sanitisation
 
-    $nom = filter_var($_POST['nom'], FILTER_SANITIZE_STRING);
-    $prenom = filter_var($POST['prenom'], FILTER_SANITIZE_STRING);
-    $age = filter_var($_POST['age'], FILTER_SANITIZE_NUMBER_INT);
-    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-    $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+        $nom = filter_var($_POST['nom'], FILTER_SANITIZE_STRING);
+        $prenom = filter_var($POST['prenom'], FILTER_SANITIZE_STRING);
+        $age = filter_var($_POST['age'], FILTER_SANITIZE_NUMBER_INT);
+        $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+        $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
 
-    // Validation
+        // Validation
 
-    if (true === filter_var($age, FILTER_SANITIZE_NUMBER_INT)) {
-        echo "C'est un nombre, ok";
-    } else {
-        echo "Ce n'est pas un nombre, taper un autre nombre";
-    }
+        if (true === filter_var($age, FILTER_SANITIZE_NUMBER_INT)){ 
+            echo "C'est un nombre, ok";
+        } else {
+            echo "Ce n'est pas un nombre, taper un autre nombre";
+        }
 
-    if (true === filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Cette adresse email nettoyée est considérée comme valide.";
-    } else {
-        echo "Cette adresse email nettoyée n'est pas valide. Désolé";
-    }
+        if (true === filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            echo "Cette adresse email nettoyée est considérée comme valide.";
+        } else {
+            echo "Cette adresse email nettoyée n'est pas valide. Désolé";
+        }
+
+
+        // Création d'une liste blanche des extensions autorisées
+        $controle_extensions_autorisees = ['jpg', 'jpeg', 'png', 'gif'];
+
+        // Récupération du nom du fichier
+        $fichier_upload_nom = $_FILES['fichier']['name'];
+
+        // Récupération de l'extension du fichier
+        $fichier_extension =  strtolower(pathinfo($fichier_upload_nom, PATHINFO_EXTENSION));
+
+        // Vérification de l'extension du fichier
+        if(!in_array($fichier_extension, $controle_extensions_autorisees)){
+            echo 'L\'extension du fichier n\'est pas autorisée';
+        }
+
+        // Ce tableau contient la liste des types MIME autorisés:
+        // On autorise uniquement les fichiers image de type gif, jpeg et png
+        $controle_type_mime_autorises = ['image/jpeg', 'image/pjpeg', 'image/png', 'image/gif'];
+
+        $fichier_upload_source = $_FILES['fichier']['tmp_name'];
+
+        $controle_type_mime_autorises = ['image/gif', 'image/jpeg', 'image/pjpeg', 'image/png'];
+
+        $fichier_upload_source = $_FILES['fichier']['tmp_name'];
+        $fichier_mime_type = mime_content_type($fichier_upload_source);
+
+        // On vérifie que le type MIME appartient à la liste blanche
+        if(!in_array($fichier_mime_type, $controle_type_mime_autorises)){
+            echo 'Le type du fichier n\'est pas autorisée';
+        }
+
+        // Définition de la taille maximale autorisée à 100Ko, soit 100000 octets
+        $controle_taille_maximum = 100000;
+
+        $fichier_upload_taille = $_FILES['fichier']['size'];
+
+        if($fichier_upload_taille > $controle_taille_maximum){
+            echo 'La taille du fichier est de '.$fichier_upload_taille.' et dépasse la taille autorisée de '.$controle_taille_maximum;
+        }
+
+        // Minimun pour accepter le formulaire
+        if (empty($nom) AND empty($prenom) AND empty($age)) {
+            header('Location: http://tonsite/machin/contact2.php', true, 303);
+            echo "Remplissez le formulaire complètement. Merci !";
+            // !!! A CHANGER ENCORE !!!
+        }
 
     ?>
 
