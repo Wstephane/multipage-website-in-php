@@ -45,13 +45,13 @@
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
+              <a class="nav-link text-uppercase text-expanded" action="about.php" method="post">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.php">Products</a>
+              <a class="nav-link text-uppercase text-expanded" action="product.php" method="post">Products</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.php">Store</a>
+              <a class="nav-link text-uppercase text-expanded" action="store.php" method="post">Store</a>
             </li>
           </ul>
         </div>
