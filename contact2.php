@@ -28,16 +28,16 @@
 
     <form class="form-horizontal" role="form" method="POST" action="upload2.php" enctype="multipart/form-data">
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">Mme</label>
+            <input class="form-check-input" type="radio" name="genre" id="mme" value="option1" checked>
+            <label class="form-check-label" for="mme">Mme</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">Melle</label>
+            <input class="form-check-input" type="radio" name="genre" id="melle" value="option2">
+            <label class="form-check-label" for="melle">Melle</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Mr.</label>
+            <input class="form-check-input" type="radio" name="genre" id="mr" value="option3">
+            <label class="form-check-label" for="mr">Mr.</label>
         </div>
         <div class="form-group">
             <label for="nom">Nom</label>
@@ -48,23 +48,26 @@
             <input type="text" class="form-control" id="prenom" placeholder="Prénom">
         </div>
         <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" class="form-control" id="age">
+        </div>
+        <div class="form-group">
             <label for="email">Email</label>
             <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="email">
         </div>
         <div class="form-row align-items-center">
             <div class="col-auto my-1">
-                <label class="mr-sm-2" for="preference">Preference</label>
+                <label class="mr-sm-2" for="preference">Préférence</label>
                 <select class="custom-select mr-sm-2" id="preference">
                     <option selected>Devenir bénèvole</option>
-                    <option value="1">Demande d'information</option>
-                    <option value="2">Informatino sur les dons</option>
-                    <option value="3">Three</option>
+                    <option value="1">Demande d'information générale</option>
+                    <option value="2">Demande d'informatinon pour les dons</option>
                 </select>
             </div>
         </div>
         <div class="form-group">
             <label for="message">Votre message</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
+            <textarea class="form-control" id="message" rows="5"></textarea>
         </div>
         <div class="form-group">
             <label for="fichier">Document</label>
@@ -73,24 +76,39 @@
         </div>
         <div class="form-check form-check-inline">
             <p>Format de réponse souhaité</p>
-            <input class="form-check-input" type="radio" id="formatFichier" value="option1">
+            <input class="form-check-input" type="radio" name="type" id="formatFichier" value="option1" checked>
             <label class="form-check-label" for="formatFichier">HTML</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="formatFichier2" value="option2">
+            <input class="form-check-input" type="radio" name="type" id="formatFichier2" value="option2">
             <label class="form-check-label" for="formatFichier2">Texte</label>
         </div>
-        <button type="submit" class="btn btn-default">Contactez-moi</button>
+        <button type="submit" class="btn btn-default">Contactez-nous</button>
     </form>
 
     <?php
 
     // Sanitisation
 
-    // $nom = filter_var($_POST['nom'], )
-    // $prenom = filter_var($POST['prenom'], )
+    $nom = filter_var($_POST['nom'], FILTER_SANITIZE_STRING);
+    $prenom = filter_var($POST['prenom'], FILTER_SANITIZE_STRING);
+    $age = filter_var($_POST['age'], FILTER_SANITIZE_NUMBER_INT);
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+    $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
 
+    // Validation
+
+    if (true === filter_var($age, FILTER_SANITIZE_NUMBER_INT)) {
+        echo "C'est un nombre, ok";
+    } else {
+        echo "Ce n'est pas un nombre, taper un autre nombre";
+    }
+
+    if (true === filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "Cette adresse email nettoyée est considérée comme valide.";
+    } else {
+        echo "Cette adresse email nettoyée n'est pas valide. Désolé";
+    }
 
     ?>
 
