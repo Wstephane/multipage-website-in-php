@@ -87,7 +87,7 @@
       </div>
     </section>
 
-        <section class="page-section cta">
+    <section class="page-section cta">
       <div class="container">
         <!-- <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt=""> -->
         <div class="about-heading-content">
@@ -105,6 +105,28 @@
                   <li><strong>Alain Dekeuleneer.</strong> Superviseur, psychologue clinicien et psychodramastiste.</li>
                   <li><strong>Pascal Kayaert.</strong> Superviseur, directeur de Télé-Accueil Bruxelles, travailleur social. Formateur à l’asbl Repères (promotion de la santé).</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section cta" id="here">
+      <div class="container">
+        <!-- <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt=""> -->
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <!-- <span class="section-heading-upper"></span> -->
+                  <span class="section-heading-lower">L'Observatoire social</span>
+                </h2>
+                <p>Parallèlement à la réappropriation de la parole par les individus à l’intérieur de la relation d’écoute, Télé-Accueil a une fonction dont elle ne peut se départir : celle d’être témoin de la société, de ce qu’elle entend.
+                  En tant que service d’écoute, Télé-Accueil se trouve à la croisée des chemins entre la sphère publique et la sphère privée et, à ce titre, peut être un révélateur des tendances sociales, des changements à l’œuvre dans la société. En effet, il se dit à Télé-Accueil des choses qui ne se disent sans doute pas ailleurs en raison de la nature-même de l’offre de l’institution – une écoute dans l’anonymat et la confidentialité – et qui, de ce fait, méritent d’être analysées et communiquées dans le but de mieux comprendre les phénomènes sociaux actuels.
+                  Certes il n’est pas demandé à Télé-Accueil de proposer des solutions aux problèmes écoutés, l’institution n’est pas outillée pour cela et ce n’est pas son rôle mais elle détient en revanche celui de refléter aux responsables et, notamment aux politiciens, les données qu’elle observe.
+                  Plusieurs thématiques ont été investiguées et ont fait l'objet de publications.</p>
               </div>
             </div>
           </div>
