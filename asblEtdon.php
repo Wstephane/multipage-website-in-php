@@ -29,37 +29,6 @@
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.php">Accueil
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="benevole.php">Devenir écoutant Bénèvole</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="formation.php">Formation</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="don.php">Don</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
@@ -129,12 +98,6 @@
         </div>
       </div>
     </section>
-
-    <footer class="footer text-faded text-center py-5">
-      <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
-      </div>
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
