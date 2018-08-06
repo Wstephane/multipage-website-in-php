@@ -52,10 +52,9 @@
     </div>
 
     <p>Pick up an image to upload, and press "upload" </p>
-    <form name="form2" enctype="multipart/form-data" method="post" action="upload.php" />
-        <p><input type="file" size="32" name="my_field" value="" /></p>
-        <p class="button"><input type="hidden" name="action" value="image" />
-        <input type="submit" name="Submit" value="upload" /></p>
+    <form enctype="multipart/form-data" method="post" action="upload.php">
+      <input type="file" size="32" name="image_field" value="">
+      <input type="submit" name="Submit" value="upload">
     </form>
 
     <div class="form-group">
