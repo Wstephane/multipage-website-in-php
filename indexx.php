@@ -29,11 +29,10 @@
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
-    <section class="page-section clearfix">
+    <section class="page-section cta">
       <div class="container">
         <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <div class="col-xl-9 mx-auto">
             <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Vous avez besoin de parler à quelqu’un,</span>
               <span class="section-heading-lower">de vous confier, de vous exprimer, d’être écouté...</span>
