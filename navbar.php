@@ -8,18 +8,21 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="index.php">Home
+          <a class="nav-link text-uppercase text-expanded" href="indexx.php">Acceuil
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" action="about.php" method="post">About</a>
+          <a class="nav-link text-uppercase text-expanded" action="benevole.php" method="post">Devenir Bénèvole</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" action="product.php" method="post">Products</a>
+          <a class="nav-link text-uppercase text-expanded" action="formation.php" method="post">Formation</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" action="store.php" method="post">Store</a>
+          <a class="nav-link text-uppercase text-expanded" action="asblEtdon.php" method="post"> Notre ASBL et les Dons</a>
+        </li>
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" action="formulaire_hakan.php" method="post">Contact</a>
         </li>
       </ul>
     </div>
