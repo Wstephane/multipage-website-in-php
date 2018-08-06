@@ -1,0 +1,14 @@
+{
+    "name": "multipage website in php",
+    "version": "1.0.0",
+    "config": {
+        "vendor-dir": "vendor",
+        "bin-dir": "bin/vendor",
+        "component-dir": "web/component/vendor",
+        "optimize-autoloader": true,
+        "preferred-install": "source"
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
