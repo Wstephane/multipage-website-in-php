@@ -19,7 +19,7 @@
           <a class="nav-link text-uppercase text-expanded" action="formation.php" method="post">Formation</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" action="asblEtdon.php" method="post"> Notre ASBL et les Dons</a>
+          <a class="nav-link text-uppercase text-expanded" action="asblEtdon.php" method="post">Notre ASBL et les Donations</a>
         </li>
         <li class="nav-item px-lg-4">
           <a class="nav-link text-uppercase text-expanded" action="formulaire_hakan.php" method="post">Contact</a>
