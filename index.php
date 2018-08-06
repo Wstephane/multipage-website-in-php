@@ -25,8 +25,8 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">Télé-Accueil</span>
-      <span class="site-heading-lower">Quelqu'un à qui parler dans l'anonymat</span>
+      <span class="site-heading-upper text-primary mb-3">Quelqu'un à qui parler dans l'anonymat</span>
+      <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
     <!-- Navigation -->
@@ -44,13 +44,13 @@
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.php">Devenir écoutant Bénèvole</a>
+              <a class="nav-link text-uppercase text-expanded" href="benevole.php">Devenir écoutant Bénèvole</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.php">Formation</a>
+              <a class="nav-link text-uppercase text-expanded" href="formation.php">Formation</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.php">Don</a>
+              <a class="nav-link text-uppercase text-expanded" href="don.php">L'ASBL et Donation</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
