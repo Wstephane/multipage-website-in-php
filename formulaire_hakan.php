@@ -21,7 +21,7 @@
    </div>
 
 
- <form name="qryform" id="qryform" method="post" action="mail.php" onsubmit="return(validate());" novalidate="novalidate">
+ <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="upload.php" onsubmit="return(validate());" novalidate="novalidate">
     <div class="form-group">
       <label>Nom:</label>
       <input type="text" class="form-control" id="name" placeholder="Entrer Nom" name="name">
@@ -52,10 +52,10 @@
     </div>
 
     <p>Pick up an image to upload, and press "upload" </p>
-    <form enctype="multipart/form-data" method="post" action="upload.php">
-      <input type="file" size="32" name="image_field" value="">
-      <input type="submit" name="Submit" value="upload">
-    </form>
+
+
+
+
 
     <div class="form-group">
      <input type="radio" name="reponse" value="html" >
@@ -64,8 +64,9 @@
      <label for="texte">Texte</label>
     </div>
 
-
-    <button type="submit" class="btn btn-default">Submit</button>
+      <input type="file" size="32" name="image_field" value="">
+      <button type="submit" class="btn btn-default">Submit</button>
+      
   </form>
   </div>
 

@@ -1,16 +1,19 @@
 <?php
+require 'vendor/autoload.php';
   $handle = new upload($_FILES['image_field']);
   if ($handle->uploaded) {
-    $handle->file_new_name_body   = 'image_resized';
-    $handle->image_resize         = true;
-    $handle->image_x              = 100;
-    $handle->image_ratio_y        = true;
-    $handle->process('/home/user/files/');
-    if ($handle->processed) {
-      echo 'image resized';
-      $handle->clean();
-    } else {
-      echo 'error : ' . $handle->error;
-    }
-  }
+    // Ajout d'une fin pour que le fichier soi unique
+    $handle->file_name_body_add    = "_".round(microtime(true));
+  // Vérification du fichier
+    if ($handle->file_src_name_ext === 'jpg' || $handle->file_src_name_ext === 'jpeg' || $handle->file_src_name_ext === 'png' || $handle->file_src_name_ext === 'gif'){
+    $handle->process('./upload');
+      if ($handle->processed) {
+        include 'gmail.php';
+        $mail->addAttachment($handle->file_dst_pathname);
+        $handle->clean();
+      } else {
+        echo 'error : ' . $handle->error;
+      }
+}
+}
 ?>

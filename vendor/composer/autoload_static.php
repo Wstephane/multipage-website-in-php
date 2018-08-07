@@ -26,6 +26,7 @@ class ComposerStaticInit165c8f497b441410abf637a0eec379f3
         'PHPMailer\\PHPMailer\\PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/PHPMailer.php',
         'PHPMailer\\PHPMailer\\POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/POP3.php',
         'PHPMailer\\PHPMailer\\SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/SMTP.php',
+        'upload' => __DIR__ . '/..' . '/verot/class.upload.php/src/class.upload.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
