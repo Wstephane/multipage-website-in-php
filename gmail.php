@@ -1,6 +1,11 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
 require 'vendor/autoload.php';
+use PHPMailer\PHPMailer\PHPMailer;
+
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 date_default_timezone_set('Etc/UTC');
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
