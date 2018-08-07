@@ -5,7 +5,7 @@
  */
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/acceuil.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -61,12 +61,14 @@ p {
   display: block;
   font-size: 1rem;
   font-weight: 800;
+  padding-top: 1rem;
 }
 
 .section-heading .section-heading-lower {
   display: block;
   font-size: 3rem;
   font-weight: 100;
+  padding-top: 1rem;
 }
 
 .bg-faded {
@@ -105,7 +107,7 @@ p {
 
 .btn-xl {
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 2rem;
@@ -144,7 +146,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(171, 201, 248, 0.733);
 }
 
 .cta .cta-inner {
@@ -240,12 +242,12 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
+  background-color: #ff8800;
   border-color: #e6a756;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
+  background-color: #c7a902;
   border-color: #df902a;
 }
 

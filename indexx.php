@@ -39,9 +39,9 @@
             </h2>
             <p class="mb-3">A Télé-Accueil Bruxelles, vous pouvez gratuitement entrer en contact par téléphone ou par Chat avec quelqu’un qui vous écoute dans le respect et le non-jugement. Toutes les thématiques sont écoutées. Quels que soient votre vécu et vos difficultés (angoisse, solitude, maladie, conflit familial...), vous pouvez appeler pour exprimer ce que vous vivez. Votre anonymat et la confidentialité de vos propos sont garantis.
             </p>
-            <!-- <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
-            </div> -->
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="#">Appellez nous au 107 !</a>
+            </div>
           </div>
         </div>
       </div>
