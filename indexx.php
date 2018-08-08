@@ -24,6 +24,10 @@
 
   </head>
 
+  <header>
+    <?php include 'navbar.php'; ?>
+  </header>
+
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
