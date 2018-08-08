@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/business-casual.css" rel="stylesheet">
 
   </head>
@@ -80,7 +81,6 @@
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
-                  <!-- <span class="section-heading-upper"></span> -->
                   <span class="section-heading-lower">Historique</span>
                 </h2>
                 <p>Télé-Accueil Bruxelles existe depuis plus de cinquante ans !</p>
