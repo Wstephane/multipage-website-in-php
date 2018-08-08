@@ -22,6 +22,10 @@
 
   </head>
 
+  <header>
+    <?php include 'navbar.php'; ?>
+  </header>
+
   <body>
     <div class="container">
         <h1>Contact</h1>
@@ -96,7 +100,7 @@
 
         // Validation
 
-        if (true === filter_var($age, FILTER_SANITIZE_NUMBER_INT)){ 
+        if (true === filter_var($age, FILTER_SANITIZE_NUMBER_INT)){
             echo "C'est un nombre, ok";
         } else {
             echo "Ce n'est pas un nombre, taper un autre nombre";

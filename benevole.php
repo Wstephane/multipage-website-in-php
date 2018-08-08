@@ -21,6 +21,10 @@
     <link href="css/business-casual.min.css" rel="stylesheet">
 
   </head>
+  
+  <header>
+    <?php include 'navbar.php'; ?>
+  </header>
 
   <body>
 
@@ -44,7 +48,7 @@
                   Vous êtes convaincu de l’importance de la parole et de l’écoute...
                   Vous aimez aller à la rencontre d'autres personnes...
                   Vous êtes prêt à suivre une formation à l’écoute...
-                  Vous disposez de quelques heures par semaine… 
+                  Vous disposez de quelques heures par semaine…
                   <strong>Devenez écoutant bénévole à Télé-Accueil Bruxelles !</strong></p>
                 <!-- <p class="mb-0"></p> -->
               </div>

@@ -6,22 +6,20 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item active px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="indexx.php">Acceuil
-            <span class="sr-only">(current)</span>
-          </a>
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="./indexx.php">Acceuil</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" action="benevole.php" method="post">Devenir Bénèvole</a>
+          <a class="nav-link text-uppercase text-expanded" href="./benevole.php">Devenir Bénèvole</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" action="formation.php" method="post">Formation</a>
+          <a class="nav-link text-uppercase text-expanded" href="./formation.php">Formation</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" action="asblEtdon.php" method="post">Notre ASBL et les Donations</a>
+          <a class="nav-link text-uppercase text-expanded" href="./asblEtdon.php">Notre ASBL et les Donations</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" action="formulaire_hakan.php" method="post">Contact</a>
+          <a class="nav-link text-uppercase text-expanded" href="./formulaire_hakan.php">Contact</a>
         </li>
       </ul>
     </div>
