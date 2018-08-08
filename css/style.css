@@ -1,0 +1,12 @@
+.cta .cta-inner {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.bg-faded {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.section-heading-upper {
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
