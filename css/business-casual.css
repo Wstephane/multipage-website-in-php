@@ -61,7 +61,7 @@ p {
   display: block;
   font-size: 1rem;
   font-weight: 800;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 
 .section-heading .section-heading-lower {
@@ -242,12 +242,12 @@ p {
 }
 
 .btn-primary {
-  background-color: #ff8800;
+  background-color: #e6a756;
   border-color: #e6a756;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #c7a902;
+  background-color: #a83f3f;
   border-color: #df902a;
 }
 

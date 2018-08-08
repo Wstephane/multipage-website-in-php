@@ -46,7 +46,8 @@
             <p class="mb-3">A Télé-Accueil Bruxelles, vous pouvez gratuitement entrer en contact par téléphone ou par Chat avec quelqu’un qui vous écoute dans le respect et le non-jugement. Toutes les thématiques sont écoutées. Quels que soient votre vécu et vos difficultés (angoisse, solitude, maladie, conflit familial...), vous pouvez appeler pour exprimer ce que vous vivez. Votre anonymat et la confidentialité de vos propos sont garantis.
             </p>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Appellez nous au 107 !</a>
+              <a class="btn btn-primary btn-xl" href="#">Appellez nous au 107 ! </br> 24h/24</a>
+              <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater avec un écoutant ! </br> De 13h à 3h du matin</a>
             </div>
           </div>
         </div>
@@ -66,7 +67,7 @@
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">Par chat</span>
               </h2>
-              <p class="mb-0">Consultez le site internet.<span> <a href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Le Chat-Accueil</a></span> est accessible tous les jours de 13h à 01 heure. Ce service est également gratuit.</p>
+              <p class="mb-0">Consultez le site internet.<span> <a href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Le Chat-Accueil</a></span> est accessible tous les jours de 13h à 03 heure. Ce service est également gratuit.</p>
               <p class="mb-0">Télé-Accueil Bruxelles offre avant tout un espace de parole et d’écoute. L’écoutant vous accompagne dans votre cheminement et vous aide à clarifier votre situation. Il peut aussi éventuellement vous informer et vous orienter vers d’autres services d’aide. Il ne s’agit donc pas de psychothérapie même si parler peut conduire à un certain mieux-être.</p>
             </div>
           </div>
