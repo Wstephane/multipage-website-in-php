@@ -10,6 +10,7 @@
 <div class="form-sec">
   <h4>Contact form</h4>
 
+  <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="upload.php" onsubmit="return(validate());" novalidate="novalidate">
 
    <div class="form-group">
     <input type="radio" name="gender" value="madame" >
@@ -21,7 +22,6 @@
    </div>
 
 
- <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="upload.php" onsubmit="return(validate());" novalidate="novalidate">
     <div class="form-group">
       <label>Nom:</label>
       <input type="text" class="form-control" id="name" placeholder="Entrer Nom" name="name">
@@ -58,15 +58,15 @@
 
 
     <div class="form-group">
-     <input type="radio" name="reponse" value="html" >
+     <input type="radio" name="choix" value="html" >
      <label for="html">HTML</label>
-     <input type="radio" name="reponse" value="texte">
+     <input type="radio" name="choix" value="texte">
      <label for="texte">Texte</label>
     </div>
 
       <input type="file" size="32" name="image_field" value="">
       <button type="submit" class="btn btn-default">Submit</button>
-      
+
   </form>
   </div>
 
