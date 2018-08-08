@@ -1,4 +1,3 @@
-<?php
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
   <div class="container">
     <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
@@ -27,4 +26,4 @@
       </ul>
     </div>
   </div>
-</nav> ?>
+</nav>
