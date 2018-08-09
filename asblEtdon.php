@@ -35,21 +35,6 @@
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
-    <!-- <section class="page-section clearfix">
-      <div class="container">
-        <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Depuis 1959</span>
-              <span class="section-heading-lower">Notre Projet</span>
-            </h2>
-            <p class="mb-3">Télé-Accueil Bruxelles propose une écoute à toute personne en difficulté sur le plan moral, social ou psychologique et qui souhaite en parler dans l’anonymat et la confidentialité. L’écoute est assurée par des bénévoles <strong>24h/24 et 7j/7</strong> grâce au <strong>numéro de téléphone gratuit 107 et par internet tous les jours de 13h à 03 heures</strong> sur <a href="https://www.sos-amitie.com/web/internet/chat">le site www.chat-accueil.org</a>. Ces permanences Chat sont assurées en partenariat avec <a href="https://www.sos-amitie.org/">SOS Amitié-France</a>.</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <section class="page-section about-heading">
       <div class="container">
         <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
@@ -78,7 +63,6 @@
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-upper">Le CEFEC et</span>
-                  <!-- <span class="section-heading-lower">Le CEFEC et</span> -->
                   <span class="section-heading-lower">L'observatoire Social</span>
                 </h2>
                 <p>Deux autres activités existent également au sein de l’association : le CEFEC et l’Observatoire social.</p>
