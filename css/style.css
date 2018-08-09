@@ -48,7 +48,7 @@ body {
     font-size: 1.15rem;
 }
 
-#white {
+.white {
     color: rgb(255, 255, 255);
 }
 
@@ -56,6 +56,6 @@ body {
     padding-bottom: 65px;
 }
 
-#mouve {
-    margin-top: 6.8rem;
+a.btn-xl {
+    margin-top: -16px;
 }

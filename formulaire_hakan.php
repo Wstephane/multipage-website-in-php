@@ -1,9 +1,12 @@
-<html>
-  <head>
+<html lang="fr">
+  <head> 
+
+    <meta name="description" lang="fr" content="Site web d'une ASBL d'écoute">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Site Web d'une association d'écoute">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
+    <meta name="keywords" content="Accueil télèphone solitude">
 
     <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Donation et Contact</title>
 
@@ -35,9 +38,8 @@
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
-    <section class="page-section about-heading" id="mouve">
+    <section class="page-section about-heading">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
@@ -69,32 +71,32 @@
 
     <div class="container" id="here2">
       <div class="form-sec">
-        <h4 id="white">Formulaire de Contact</h4>
+        <h4 class="white">Formulaire de Contact</h4>
         <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="upload.php" onsubmit="return(validate());" novalidate="novalidate">
         <div class="form-group">
           <input type="radio" name="gender" value="madame" >
-          <label id="white" for="Madame">Mme</label>
+          <label class="white" for="Madame">Mme</label>
           <input type="radio" name="gender" value="mademoiselle">
-          <label id="white" for="Mademoiselle">Melle</label>
+          <label class="white" for="Mademoiselle">Melle</label>
           <input type="radio" name="gender" value="monsieur">
-          <label id="white" for="Monsieur">Mr</label>
+          <label class="white" for="Monsieur">Mr</label>
         </div>
 
         <div class="form-group">
-          <label id="white">Nom:</label>
+          <label class="white">Nom:</label>
           <input type="text" class="form-control" id="name" placeholder="Entrer votre Nom" name="name">
         </div>
         <div class="form-group">
-          <label id="white">Prénom:</label>
+          <label class="white">Prénom:</label>
           <input type="text" class="form-control" id="first_name" placeholder="Entrer votre Prénom" name="first_name">
         </div>
         <div class="form-group">
-          <label id="white">Email:</label>
-          <input type="email" class="form-control" id="name" placeholder="Enter votre Email" name="email">
+          <label class="white">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter votre Email" name="email">
         </div>
 
         <div class="form-group">
-          <label id="white" for="sujet">Objet:</label>
+          <label class="white" for="sujet">Objet:</label>
           <select class="form-control" id="sujet" name="sujet">
             <option>Devenir bénèvole</option>
             <option>Demande d'information génèrale</option>
@@ -103,19 +105,19 @@
         </div>
 
         <div class="form-group">
-          <label id="white">Votre message:</label>
+          <label class="white">Votre message:</label>
           <textarea name="msg" class="form-control" id="msg" placeholder="Entrer votre message"></textarea>
         </div>
 
         <div class="form-group">
-          <p id="white">Format de réponse souhaité</p>
+          <p class="white">Format de réponse souhaité</p>
           <input type="radio" name="choix" value="html" >
-          <label id="white" for="html">HTML</label>
+          <label class="white" for="html">HTML</label>
           <input type="radio" name="choix" value="texte">
-          <label id="white" for="texte">Texte</label>
+          <label class="white" for="texte">Texte</label>
         </div>
 
-        <p id="white">Prenez une image à uploader et appuyer sur "choisir une image" puis sur "ouvrir".</p>
+        <p class="white">Prenez une image à uploader et appuyer sur "choisir une image" puis sur "ouvrir".</p>
         <input type="file" size="32" name="image_field" value="">
         <button type="submit" class="btn btn-default">Envoyer</button>
 

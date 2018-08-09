@@ -3,10 +3,12 @@
 
   <head>
 
+    <meta name="description" lang="fr" content="Site web d'une ASBL d'écoute">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Site Web d'une association d'écoute">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
+    <meta name="keywords" content="Accueil télèphone solitude">
 
     <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Accueil</title>
 
@@ -39,7 +41,6 @@
 
     <section class="page-section about-heading">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
@@ -50,8 +51,10 @@
                 </h2>
                 <p class="mb-3">A Télé-Accueil Bruxelles, vous pouvez gratuitement entrer en contact par téléphone ou par Chat avec quelqu’un qui vous écoute dans le respect et le non-jugement. Toutes les thématiques sont écoutées. Quels que soient votre vécu et vos difficultés (angoisse, solitude, maladie, conflit familial...), vous pouvez appeler pour exprimer ce que vous vivez. Votre anonymat et la confidentialité de vos propos sont garantis.</p>
                 <div class="intro-button mx-auto">
-                  <a class="btn btn-primary btn-xl" href="#">Appellez nous au 107 ! </br> 24h/24</a>
-                  <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater !</br>De 13h à 3h du matin</a>
+                  <div>
+                    <p class="btn btn-primary btn-xl"> Appellez nous au 107 ! </br> 24h/24</p>
+                    <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater !</br>De 13h à 3h du matin</a>
+                  </div>
                 </div>
               </div>
             </div>
