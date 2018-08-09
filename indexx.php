@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
 
-    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat</title>
+    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Index</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,19 +34,23 @@
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
-    <section class="page-section cta">
+    <section class="page-section about-heading">
       <div class="container">
-        <div class="intro">
-          <div class="col-xl-9 mx-auto">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Vous avez besoin de parler à quelqu’un,</span>
-              <span class="section-heading-lower">de vous confier, de vous exprimer, d’être écouté...</span>
-            </h2>
-            <p class="mb-3">A Télé-Accueil Bruxelles, vous pouvez gratuitement entrer en contact par téléphone ou par Chat avec quelqu’un qui vous écoute dans le respect et le non-jugement. Toutes les thématiques sont écoutées. Quels que soient votre vécu et vos difficultés (angoisse, solitude, maladie, conflit familial...), vous pouvez appeler pour exprimer ce que vous vivez. Votre anonymat et la confidentialité de vos propos sont garantis.
-            </p>
-            <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Appellez nous au 107 ! </br> 24h/24</a>
-              <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater avec un écoutant ! </br> De 13h à 3h du matin</a>
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Vous avez besoin de parler à quelqu’un,</span>
+                  <span class="section-heading-lower">de vous confier, de vous exprimer, d’être écouté...</span>
+                </h2>
+                <p class="mb-3">A Télé-Accueil Bruxelles, vous pouvez gratuitement entrer en contact par téléphone ou par Chat avec quelqu’un qui vous écoute dans le respect et le non-jugement. Toutes les thématiques sont écoutées. Quels que soient votre vécu et vos difficultés (angoisse, solitude, maladie, conflit familial...), vous pouvez appeler pour exprimer ce que vous vivez. Votre anonymat et la confidentialité de vos propos sont garantis.</p>
+                <div class="intro-button mx-auto">
+                  <a class="btn btn-primary btn-xl" href="#">Appellez nous au 107 ! </br> 24h/24</a>
+                  <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater !</br>De 13h à 3h du matin</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -100,6 +104,10 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <?php include 'footer.php'; ?>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

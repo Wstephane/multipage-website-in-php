@@ -30,7 +30,7 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">Quelqu'un à qui parler dans l'anonymat</span>
+      <span class="site-heading-upper text-primary mb-3">Quelqu'un à qui parler dans l'anonymat - Formation</span>
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
@@ -46,7 +46,6 @@
                   <span class="section-heading-lower">Le CEFEC</span>
                 </h2>
                 <p>Dans le but de promouvoir, de favoriser et d'encourager l’écoute et l’accueil, Télé-Accueil Bruxelles a créé le CEFEC (Centre de Formation à l'Ecoute). Depuis 1992, il organise des formations ainsi que des supervisions destinées aux bénévoles et aux professionnels extérieurs à Télé-Accueil Bruxelles.</p>
-                <!-- <p class="mb-0"></p> -->
                 <ul>
                   <li><strong>Formations « groupe pluri-institutionnel »</strong> pour professionnels ou bénévoles d'horizons divers concernés par l'écoute et l'accueil au téléphone et/ou en face à face.</li>
                   <li><strong>Formations « groupe mono-institutionnel »</strong> pour toute équipe de professionnels ou de bénévoles du secteur éducatif, pédagogique, psychosocial, de la santé ou autre concernée par l'écoute et l'accueil au téléphone et/ou en face à face.</li>
@@ -63,13 +62,11 @@
 
     <section class="page-section cta">
       <div class="container">
-        <!-- <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt=""> -->
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
-                  <!-- <span class="section-heading-upper"></span> -->
                   <span class="section-heading-lower">Les Formateurs</span>
                 </h2>
                 <p>Les formateurs du CEFEC ont une pratique multiple : clinique, thérapeutique, sociale. Ils ont l'expérience de formations et de supervisions dans le champ de la promotion de la santé et de la santé mentale. Par ailleurs, ils partagent régulièrement des temps d’échanges de pratique (supervisions).</p>
@@ -88,13 +85,11 @@
 
     <section class="page-section cta" id="here">
       <div class="container">
-        <!-- <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt=""> -->
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
-                  <!-- <span class="section-heading-upper"></span> -->
                   <span class="section-heading-lower">L'Observatoire social</span>
                 </h2>
                 <p>Parallèlement à la réappropriation de la parole par les individus à l’intérieur de la relation d’écoute, Télé-Accueil a une fonction dont elle ne peut se départir : celle d’être témoin de la société, de ce qu’elle entend.
@@ -107,6 +102,10 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <?php include 'footer.php'; ?>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

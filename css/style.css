@@ -11,12 +11,18 @@
     text-decoration-color: black;
 }
 
-@media (min-width: 992px) {
-    .intro .intro-text {
-        left: 0;
-        /* width: 60%; */
-        margin-top: 3rem;
-        position: relative;
-        /* margin: auto; */
-    }
+.intro-button {
+    padding-left: 3.5rem;
+}
+
+.row {
+    margin-top : 20px;
+}
+
+.footer {
+    font-family: 'Raleway';
+    margin: auto;
+    color: #bfb8b6;
+    text-align: center;
+    text-transform: uppercase;
 }

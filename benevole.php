@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
 
-    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat</title>
+    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Devenir Bénèvole</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,6 +42,7 @@
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Envie de vous engager...</span>
                   <span class="section-heading-lower">Comment devenir écoutant</span>
                 </h2>
                 <p>Vous souhaitez vous engager dans une activité solidaire enrichissante...
@@ -110,6 +111,10 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <?php include 'footer.php'; ?>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
