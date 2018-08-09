@@ -10,3 +10,13 @@
     text-decoration-line: underline;
     text-decoration-color: black;
 }
+
+@media (min-width: 992px) {
+    .intro .intro-text {
+        left: 0;
+        /* width: 60%; */
+        margin-top: 3rem;
+        position: relative;
+        /* margin: auto; */
+    }
+}
