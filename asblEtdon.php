@@ -18,8 +18,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
     <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
 
   </head>
 
@@ -49,10 +50,9 @@
       </div>
     </section>
 
-
     <section class="page-section cta">
       <div class="container">
-        <!-- <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt=""> -->
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
