@@ -65,7 +65,7 @@
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">Par téléphone</span>
               </h2>
-              <p class="mb-0">Formez le numéro 107. Le service est accessible 24 heures sur 24, 7 jours sur 7. Le 107 étant un numéro d’urgence, les appels sont gratuits.</p>
+              <p class="mb-0">Formez le numéro <span id="centsept">107</span>. Le service est accessible 24 heures sur 24, 7 jours sur 7. Le <span id="centsept">107</span> étant un numéro d’urgence, les appels sont gratuits.</p>
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">Par chat</span>
               </h2>

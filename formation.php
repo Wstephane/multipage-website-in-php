@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
 
-    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat</title>
+    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Formation</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">Quelqu'un à qui parler dans l'anonymat - Formation</span>
+      <span class="site-heading-upper text-primary mb-3">Quelqu'un à qui parler dans l'anonymat</span>
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 

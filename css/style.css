@@ -26,3 +26,21 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+#centsept {
+    color: orange;
+    font-size: 1.5rem;
+}
+
+#mainNav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+body {
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 1.15rem;
+}
