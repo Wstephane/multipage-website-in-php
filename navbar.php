@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="./indexx.php">Acceuil</a>
+          <a class="nav-link text-uppercase text-expanded" href="./indexx.php">Accueil</a>
         </li>
         <li class="nav-item px-lg-4">
           <a class="nav-link text-uppercase text-expanded" href="./benevole.php">Devenir Bénèvole</a>
@@ -16,10 +16,10 @@
           <a class="nav-link text-uppercase text-expanded" href="./formation.php">Formation</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="./asblEtdon.php">Notre ASBL et les Donations</a>
+          <a class="nav-link text-uppercase text-expanded" href="./asblEtdon.php">Notre ASBL</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="./formulaire_hakan.php">Contact</a>
+          <a class="nav-link text-uppercase text-expanded" href="./formulaire_hakan.php">Donation et Contact</a>
         </li>
       </ul>
     </div>
