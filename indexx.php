@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
 
-    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Index</title>
+    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Accueil</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,9 @@
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/telephone_fixe.ico"/>
 
   </head>
 

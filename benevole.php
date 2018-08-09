@@ -21,6 +21,9 @@
     <link href="css/business-casual.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/telephone_fixe.ico"/>
+
   </head>
   
   <header>
