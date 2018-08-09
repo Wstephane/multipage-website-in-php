@@ -1,3 +1,5 @@
+<?php include 'upload.php' ?>
+
 <html>
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -10,7 +12,7 @@
 <div class="form-sec">
   <h4>Contact form</h4>
 
-  <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="upload.php" onsubmit="return(validate());" novalidate="novalidate">
+  <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="formulaire_hakan.php" onsubmit="return(validate());" novalidate="novalidate">
 
    <div class="form-group">
     <input type="radio" name="gender" value="madame" >
@@ -65,7 +67,7 @@
     </div>
 
       <input type="file" size="32" name="image_field" value="">
-      <button type="submit" class="btn btn-default">Submit</button>
+      <button type="submit" class="btn btn-default"name='salope'>Submit</button>
 
   </form>
   </div>
