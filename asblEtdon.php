@@ -3,10 +3,9 @@
 
   <head>
 
-    <meta name="description" lang="fr" content="Site web d'une ASBL d'écoute">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Site Web d'une association d'écoute">
+    <meta name="description" lang="fr" content="Site Web d'une association d'écoute">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
     <meta name="keywords" content="Accueil télèphone solitude">
 
@@ -50,7 +49,7 @@
                   <span class="section-heading-upper">Depuis 1959</span>
                   <span class="section-heading-lower">Notre Projet</span>
                 </h2>
-                <p class="mb-3">Télé-Accueil Bruxelles propose une écoute à toute personne en difficulté sur le plan moral, social ou psychologique et qui souhaite en parler dans l’anonymat et la confidentialité. L’écoute est assurée par des bénévoles <strong>24h/24 et 7j/7</strong> grâce au <strong>numéro de téléphone gratuit <span id="centsept">107</span> et par internet tous les jours de 13h à 03 heures</strong> sur <a href="https://www.sos-amitie.com/web/internet/chat">le site www.chat-accueil.org</a>. Ces permanences Chat sont assurées en partenariat avec <a href="https://www.sos-amitie.org/">SOS Amitié-France</a>.</p>
+                <p class="mb-3">Télé-Accueil Bruxelles propose une écoute à toute personne en difficulté sur le plan moral, social ou psychologique et qui souhaite en parler dans l’anonymat et la confidentialité. L’écoute est assurée par des bénévoles <strong>24h/24 et 7j/7</strong> grâce au <strong>numéro de téléphone gratuit <span class="centsept">107</span> et par internet tous les jours de 13h à 03 heures</strong> sur <a href="https://www.sos-amitie.com/web/internet/chat">le site www.chat-accueil.org</a>. Ces permanences Chat sont assurées en partenariat avec <a href="https://www.sos-amitie.org/">SOS Amitié-France</a>.</p>
               </div>
             </div>
           </div>
@@ -99,7 +98,7 @@
                   <li><strong>1976 :</strong> Télé-Accueil est reconnu comme service d’utilité publique.</li>
                   <li><strong>1977 :</strong> création de la Fédération belge des Télé-Accueil francophones (6 postes).</li>
                   <li><strong>1990 :</strong> création du CEFEC (Centre de Formation à l’écoute).</li>
-                  <li><strong>1992 :</strong> attribution d’un numéro d’urgence gratuit : le <span id="centsept">107</span>.</li>
+                  <li><strong>1992 :</strong> attribution d’un numéro d’urgence gratuit : le <span class="centsept">107</span>.</li>
                   <li><strong>1998 :</strong> création de l’Observatoire social.</li>
                   <li><strong>2005 :</strong> Télé-Accueil diversifie son offre d’écoute et devient la première association en Belgique francophone à offrir une écoute par « chat » sur internet : le Chat-Accueil.</li>
                 </ul>

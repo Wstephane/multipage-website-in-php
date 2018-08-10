@@ -25,12 +25,12 @@
 .footer {
     font-family: 'Raleway';
     margin: auto;
-    color: #beb7b5;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-transform: uppercase;
 }
 
-#centsept {
+.centsept {
     color: rgb(255, 166, 0);
     font-size: 1.5rem;
 }
