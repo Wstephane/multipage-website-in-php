@@ -28,7 +28,7 @@
     <div class="container">
       <div class="form-sec">
         <h4>Formulaire de Contact</h4>
-        <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="upload.php" onsubmit="return(validate());" novalidate="novalidate">
+        <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="#" onsubmit="return(validate());" novalidate="novalidate">
         <div class="form-group">
           <input type="radio" name="gender" value="madame" >
           <label for="Madame">Mme</label>
@@ -75,7 +75,7 @@
 
         <p>Prenez une image à uploader et appuyer sur "choisir une image" puis sur "ouvrir".</p>
         <input type="file" size="32" name="image_field" value="">
-        <button type="submit" class="btn btn-default">Envoyer</button>
+        <button type="submit" class="btn btn-default" name="salope">Envoyer</button>
 
         </form>
       </div>
