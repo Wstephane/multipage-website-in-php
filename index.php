@@ -120,12 +120,4 @@
 
   </body>
 
-<<<<<<< HEAD:indexx.php
 </html>
-=======
-  <footer>
-    <?php include 'footer.php' ?>
-  </footer>
-
-</html>
->>>>>>> origin/hakan:index.php
