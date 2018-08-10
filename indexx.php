@@ -6,7 +6,7 @@
     <meta name="description" lang="fr" content="Site web d'une ASBL d'écoute">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Site Web d'une association d'écoute">
+    <!-- <meta name="description" content="Site Web d'une association d'écoute"> -->
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
     <meta name="keywords" content="Accueil télèphone solitude">
 
