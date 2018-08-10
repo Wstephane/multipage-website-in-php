@@ -5,21 +5,25 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" lang="fr" content="Site Web d'une association d'écoute">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
+    <meta name="keywords" content="Accueil télèphone solitude">
 
-    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat</title>
+    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Accueil</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/telephone_fixe.ico"/>
 
   </head>
 
@@ -34,19 +38,24 @@
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
-    <section class="page-section cta">
+    <section class="page-section about-heading">
       <div class="container">
-        <div class="intro">
-          <div class="col-xl-9 mx-auto">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Vous avez besoin de parler à quelqu’un,</span>
-              <span class="section-heading-lower">de vous confier, de vous exprimer, d’être écouté...</span>
-            </h2>
-            <p class="mb-3">A Télé-Accueil Bruxelles, vous pouvez gratuitement entrer en contact par téléphone ou par Chat avec quelqu’un qui vous écoute dans le respect et le non-jugement. Toutes les thématiques sont écoutées. Quels que soient votre vécu et vos difficultés (angoisse, solitude, maladie, conflit familial...), vous pouvez appeler pour exprimer ce que vous vivez. Votre anonymat et la confidentialité de vos propos sont garantis.
-            </p>
-            <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Appellez nous au 107 ! </br> 24h/24</a>
-              <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater avec un écoutant ! </br> De 13h à 3h du matin</a>
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Vous avez besoin de parler à quelqu’un,</span>
+                  <span class="section-heading-lower">de vous confier, de vous exprimer, d’être écouté...</span>
+                </h2>
+                <p class="mb-3">A Télé-Accueil Bruxelles, vous pouvez gratuitement entrer en contact par téléphone ou par Chat avec quelqu’un qui vous écoute dans le respect et le non-jugement. Toutes les thématiques sont écoutées. Quels que soient votre vécu et vos difficultés (angoisse, solitude, maladie, conflit familial...), vous pouvez appeler pour exprimer ce que vous vivez. Votre anonymat et la confidentialité de vos propos sont garantis.</p>
+                <div class="intro-button mx-auto">
+                  <div>
+                    <p class="btn btn-primary btn-xl"> Appellez nous au 107 ! </br> 24h/24</p>
+                    <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater !</br>De 13h à 3h du matin</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -61,7 +70,7 @@
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">Par téléphone</span>
               </h2>
-              <p class="mb-0">Formez le numéro 107. Le service est accessible 24 heures sur 24, 7 jours sur 7. Le 107 étant un numéro d’urgence, les appels sont gratuits.</p>
+              <p class="mb-0">Formez le numéro <span class="centsept">107</span>. Le service est accessible 24 heures sur 24, 7 jours sur 7. Le <span class="centsept">107</span> étant un numéro d’urgence, les appels sont gratuits.</p>
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">Par chat</span>
               </h2>
@@ -101,14 +110,14 @@
       </div>
     </section>
 
+    <footer>
+      <?php include 'footer.php'; ?>
+    </footer>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
-
-  <footer>
-    <?php include 'footer.php' ?>
-  </footer>
 
 </html>

@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
   <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" lang="fr" content="Site Web d'une association d'écoute">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
+    <meta name="keywords" content="Accueil télèphone solitude">
 
-    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat</title>
+    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Devenir Bénèvole</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/telephone_fixe.ico"/>
 
   </head>
   
@@ -36,12 +40,12 @@
 
     <section class="page-section about-heading">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Envie de vous engager...</span>
                   <span class="section-heading-lower">Comment devenir écoutant</span>
                 </h2>
                 <p>Vous souhaitez vous engager dans une activité solidaire enrichissante...
@@ -110,6 +114,10 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <?php include 'footer.php'; ?>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

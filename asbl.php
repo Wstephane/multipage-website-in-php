@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
   <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" lang="fr" content="Site Web d'une association d'écoute">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
+    <meta name="keywords" content="Accueil télèphone solitude">
 
-    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat</title>
+    <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Notre ASBL</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/telephone_fixe.ico"/>
 
 
   </head>
@@ -35,16 +39,19 @@
       <span class="site-heading-lower">Télé-Accueil Bruxelles</span>
     </h1>
 
-    <section class="page-section clearfix">
+    <section class="page-section about-heading">
       <div class="container">
-        <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Depuis 1959</span>
-              <span class="section-heading-lower">Notre Projet</span>
-            </h2>
-            <p class="mb-3">Télé-Accueil Bruxelles propose une écoute à toute personne en difficulté sur le plan moral, social ou psychologique et qui souhaite en parler dans l’anonymat et la confidentialité. L’écoute est assurée par des bénévoles <strong>24h/24 et 7j/7</strong> grâce au <strong>numéro de téléphone gratuit 107 et par internet tous les jours de 13h à 03 heures</strong> sur <a href="https://www.sos-amitie.com/web/internet/chat">le site www.chat-accueil.org</a>. Ces permanences Chat sont assurées en partenariat avec <a href="https://www.sos-amitie.org/">SOS Amitié-France</a>.</p>
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Depuis 1959</span>
+                  <span class="section-heading-lower">Notre Projet</span>
+                </h2>
+                <p class="mb-3">Télé-Accueil Bruxelles propose une écoute à toute personne en difficulté sur le plan moral, social ou psychologique et qui souhaite en parler dans l’anonymat et la confidentialité. L’écoute est assurée par des bénévoles <strong>24h/24 et 7j/7</strong> grâce au <strong>numéro de téléphone gratuit <span class="centsept">107</span> et par internet tous les jours de 13h à 03 heures</strong> sur <a href="https://www.sos-amitie.com/web/internet/chat">le site www.chat-accueil.org</a>. Ces permanences Chat sont assurées en partenariat avec <a href="https://www.sos-amitie.org/">SOS Amitié-France</a>.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -75,7 +82,6 @@
 
     <section class="page-section cta">
       <div class="container">
-        <!-- <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt=""> -->
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
@@ -92,7 +98,7 @@
                   <li><strong>1976 :</strong> Télé-Accueil est reconnu comme service d’utilité publique.</li>
                   <li><strong>1977 :</strong> création de la Fédération belge des Télé-Accueil francophones (6 postes).</li>
                   <li><strong>1990 :</strong> création du CEFEC (Centre de Formation à l’écoute).</li>
-                  <li><strong>1992 :</strong> attribution d’un numéro d’urgence gratuit : le 107.</li>
+                  <li><strong>1992 :</strong> attribution d’un numéro d’urgence gratuit : le <span class="centsept">107</span>.</li>
                   <li><strong>1998 :</strong> création de l’Observatoire social.</li>
                   <li><strong>2005 :</strong> Télé-Accueil diversifie son offre d’écoute et devient la première association en Belgique francophone à offrir une écoute par « chat » sur internet : le Chat-Accueil.</li>
                 </ul>
@@ -102,6 +108,10 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <?php include 'footer.php'; ?>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
