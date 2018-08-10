@@ -18,7 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/business-casual.min.css" rel="stylesheet">
+    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
   </head>
   
@@ -41,16 +42,14 @@
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
-                  <!-- <span class="section-heading-upper"></span> -->
                   <span class="section-heading-lower">Comment devenir écoutant</span>
                 </h2>
                 <p>Vous souhaitez vous engager dans une activité solidaire enrichissante...
                   Vous êtes convaincu de l’importance de la parole et de l’écoute...
                   Vous aimez aller à la rencontre d'autres personnes...
                   Vous êtes prêt à suivre une formation à l’écoute...
-                  Vous disposez de quelques heures par semaine…
-                  <strong>Devenez écoutant bénévole à Télé-Accueil Bruxelles !</strong></p>
-                <!-- <p class="mb-0"></p> -->
+                  Vous disposez de quelques heures par semaine…</p>
+                <p class="mb-0"><strong>Devenez écoutant bénévole à Télé-Accueil Bruxelles !</strong></p>
               </div>
             </div>
           </div>
@@ -60,13 +59,11 @@
 
     <section class="page-section cta">
       <div class="container">
-        <!-- <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt=""> -->
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
-                  <!-- <span class="section-heading-upper"></span> -->
                   <span class="section-heading-lower">Une formation continuel</span>
                 </h2>
                 <ul>
