@@ -36,11 +36,11 @@ $handle = new upload($_FILES['image_field']);
       }
     }
     else {
-      echo'adresse mail ou message vide.';
+      echo "<script>alert('adresse mail ou message vide.!');</script>";
     }
 
   } else {
-  	echo "Cette adresse email nettoyée n'est pas valide. Désolé.";
+    echo "<script>alert('Cette adresse email nettoyée n'est pas valide. Désolé.');</script>";
   }
 }
 ?>
