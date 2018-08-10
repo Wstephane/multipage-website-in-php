@@ -72,7 +72,7 @@
     <div class="container" id="here2">
       <div class="form-sec">
         <h4 class="white">Formulaire de Contact</h4>
-        <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="upload.php" onsubmit="return(validate());" novalidate="novalidate">
+        <form name="qryform" id="qryform" enctype="multipart/form-data" method="post" action="donation_contact.php" onsubmit="return(validate());" novalidate="novalidate">
         <div class="form-group">
           <input type="radio" name="gender" value="madame" >
           <label class="white" for="Madame">Mme</label>
