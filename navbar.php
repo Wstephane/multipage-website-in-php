@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="./indexx.php">Accueil</a>
+          <a class="nav-link text-uppercase text-expanded" href="./index.php">Accueil</a>
         </li>
         <li class="nav-item px-lg-4">
           <a class="nav-link text-uppercase text-expanded" href="./benevole.php">Devenir Bénèvole</a>
