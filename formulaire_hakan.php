@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head> 
+<?php include 'upload.php' ?>
 
+<html>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" lang="fr" content="Site Web d'une association d'écoute">
@@ -119,7 +119,7 @@
 
         <p class="white">Prenez une image à uploader et appuyer sur "choisir une image" puis sur "ouvrir".</p>
         <input type="file" size="32" name="image_field" value="">
-        <button type="submit" class="btn btn-default">Envoyer</button>
+        <button type="submit" class="btn btn-default" name="salope">Envoyer</button>
 
         </form>
       </div>
