@@ -3,10 +3,9 @@
 
   <head>
 
-    <meta name="description" lang="fr" content="Site web d'une ASBL d'écoute">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <meta name="description" content="Site Web d'une association d'écoute"> -->
+    <meta name="description" lang="fr" content="Site Web d'une association d'écoute">
     <meta name="author" content="Hakan Poyraz et Stéphane Wyns">
     <meta name="keywords" content="Accueil télèphone solitude">
 
@@ -16,8 +15,8 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
@@ -71,7 +70,7 @@
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">Par téléphone</span>
               </h2>
-              <p class="mb-0">Formez le numéro <span id="centsept">107</span>. Le service est accessible 24 heures sur 24, 7 jours sur 7. Le <span id="centsept">107</span> étant un numéro d’urgence, les appels sont gratuits.</p>
+              <p class="mb-0">Formez le numéro <span class="centsept">107</span>. Le service est accessible 24 heures sur 24, 7 jours sur 7. Le <span class="centsept">107</span> étant un numéro d’urgence, les appels sont gratuits.</p>
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">Par chat</span>
               </h2>
