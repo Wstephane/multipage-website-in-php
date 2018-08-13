@@ -12,7 +12,7 @@
     <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Accueil</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,700,800" rel="stylesheet">
@@ -52,7 +52,7 @@
                 <div class="intro-button mx-auto">
                   <div>
                     <p class="btn btn-primary btn-xl"> Appellez nous au 107 ! </br> 24h/24</p>
-                    <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater !</br>De 13h à 3h du matin</a>
+                    <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Cliquer ici pour chater !</br>De 13h à 3h du matin</a>
                   </div>
                 </div>
               </div>
@@ -115,8 +115,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/jquery/jquery.min.js"></script>
+    <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 

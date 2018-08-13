@@ -2,9 +2,9 @@
     "name": "multipage website in php",
     "version": "1.0.0",
     "config": {
-        "vendor-dir": "vendor",
-        "bin-dir": "bin/vendor",
-        "component-dir": "web/component/vendor",
+        "asset-dir": "asset",
+        "bin-dir": "bin/asset",
+        "component-dir": "web/component/asset",
         "optimize-autoloader": true,
         "preferred-install": "source"
     },

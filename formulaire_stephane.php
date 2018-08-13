@@ -12,7 +12,7 @@
     <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,700,800" rel="stylesheet">
@@ -159,9 +159,8 @@
 
         // Minimun pour accepter le formulaire
         if (empty($nom) AND empty($prenom) AND empty($age)) {
-            header('Location: http://tonsite/machin/contact2.php', true, 303);
+            header('Location: https://becode-multipage-file-rouge.herokuapp.com/donation_contact.php', true, 303);
             echo "Remplissez le formulaire complètement. Merci !";
-            // !!! A CHANGER l'ADRESSE !!!
         }
 
     ?>
@@ -171,8 +170,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/jquery/jquery.min.js"></script>
+    <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
