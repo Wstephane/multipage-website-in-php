@@ -69,6 +69,8 @@
       </div>
     </section>
 
+ <!-- Le formulaire de contact  -->
+
     <div class="container" id="here2">
       <div class="form-sec">
         <h4 class="white">Formulaire de Contact</h4>

@@ -1,20 +1,20 @@
 <?php
 require 'vendor/autoload.php';
 if (isset($_POST['salope'])) {
-if (isset($_POST['gender'])) {
-  $gender = $_POST['gender'];
-}
-if (isset($_POST['sujet'])) {
-  $gender = $_POST['sujet'];
-}
-if (isset($_POST['choix'])) {
-  $gender = $_POST['choix'];
-}
-$name =filter_var($_POST['name'],FILTER_SANITIZE_MAGIC_QUOTES);
-$first_name = filter_var($_POST['first_name'],FILTER_SANITIZE_MAGIC_QUOTES);
-$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-$msg = filter_var($_POST['msg'],FILTER_SANITIZE_MAGIC_QUOTES);
-$handle = new upload($_FILES['image_field']);
+  if (isset($_POST['gender'])) {
+    $gender = $_POST['gender'];
+  }
+  if (isset($_POST['sujet'])) {
+    $gender = $_POST['sujet'];
+  }
+  if (isset($_POST['choix'])) {
+    $gender = $_POST['choix'];
+  }
+  $name =filter_var($_POST['name'],FILTER_SANITIZE_MAGIC_QUOTES);
+  $first_name = filter_var($_POST['first_name'],FILTER_SANITIZE_MAGIC_QUOTES);
+  $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+  $msg = filter_var($_POST['msg'],FILTER_SANITIZE_MAGIC_QUOTES);
+  $handle = new upload($_FILES['image_field']);
 
   // 2. Validation
   if ( filter_var($email, FILTER_VALIDATE_EMAIL) !== false) {
