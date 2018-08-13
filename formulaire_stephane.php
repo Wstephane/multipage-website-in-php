@@ -159,9 +159,8 @@
 
         // Minimun pour accepter le formulaire
         if (empty($nom) AND empty($prenom) AND empty($age)) {
-            header('Location: http://tonsite/machin/contact2.php', true, 303);
+            header('Location: https://becode-multipage-file-rouge.herokuapp.com/donation_contact.php', true, 303);
             echo "Remplissez le formulaire complètement. Merci !";
-            // !!! A CHANGER l'ADRESSE !!!
         }
 
     ?>
