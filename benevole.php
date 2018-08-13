@@ -12,7 +12,7 @@
     <title>Télé-Accueil Bruxelles - Quelqu'un à qui parler dans l'anonymat - Devenir Bénèvole</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,700,800" rel="stylesheet">
@@ -120,8 +120,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/jquery/jquery.min.js"></script>
+    <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
