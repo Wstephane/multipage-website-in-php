@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require 'asset/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
 
 
