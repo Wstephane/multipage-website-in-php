@@ -52,7 +52,7 @@
                 <div class="intro-button mx-auto">
                   <div>
                     <p class="btn btn-primary btn-xl"> Appellez nous au 107 ! </br> 24h/24</p>
-                    <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Clicker ici pour chater !</br>De 13h à 3h du matin</a>
+                    <a class="btn btn-primary btn-xl" href="https://www.sos-amitie.com/web/internet/chat" target="_blank">Cliquer ici pour chater !</br>De 13h à 3h du matin</a>
                   </div>
                 </div>
               </div>
