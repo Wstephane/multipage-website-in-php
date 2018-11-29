@@ -23,15 +23,14 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 
 **Front-End** : Stéphane Wyns    
 
-**Back-End** : Hakan Poyraz    
+**Back-End** : Hakan Poyraz   
+
 
 
 ### Liste du briefing :    
 
 
 **Stéphane :**    
-
-
 
 * Groupe : Agile (manipulation tableau kanban) + tenue quotidienne du planning du groupe
 
@@ -102,13 +101,9 @@ Nous avons décider de prendre une template déjà fait et de le changer pour le
 Nous avons devions travailler avec un framework CSS, nous avons décider de prendre bootstrap ce qui me permettrait de travailler et d'apprendre à utiliser Bootstrap.
 
 
-## Back-End
-
-
-
 ----------------------------------
 
 ## License
 
 
-Le site a été fait avec un template sous license MIT. [Read.me](https://github.com/Wstephane/multipage-website-in-php/blob/master/READMEtemplate.md) voici le read me pour les détails.
+Le site a été fait avec un template "Business Casual" sous license MIT. [Read.me](https://github.com/Wstephane/multipage-website-in-php/blob/master/READMEtemplate.md) voici le read me pour les détails.
