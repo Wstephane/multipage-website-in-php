@@ -32,36 +32,38 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 
 **Stéphane :**    
 
-* Groupe : Agile (manipulation tableau kanban) + tenue quotidienne du planning du groupe
+* Groupe : Agile (manipulation tableau kanban) + tenue quotidienne du [planning du groupe.] (https://github.com/Wstephane/multipage-website-in-php/projects/1)
 
-* Groupe : être le capitaine du repos, qui gère les merge et les conflits
+* Groupe : être le capitaine du repos, qui gère les merge et les conflits.
 
-* UX : branding
+* UX : branding.
 
-* UX : mentions GDPR et Copyright pour informer l'utilisateur de l'utilité de fournir les données
+* UX : mentions GDPR et Copyright pour informer l'utilisateur de l'utilité de fournir les données.
 
-* Frontend : sélection et mise en place d'un framework CSS
+* Frontend : sélection et mise en place d'un framework CSS.
+  * Choix de boostrap.
 
-* Devops : déploiement sur Heroku
+* Devops : déploiement sur Heroku.
 
 * Frontend/backend : utiliser le lighthouse test pour améliorer son site et atteint un score de minimum 80 pour chaque critère.
+ * Moyenne globale de plus de 80% de score dans le lighthouse sauf progressive web app qui a une moyenne de 40%.
 
-* Frontend : Progressive Web App  
+* Frontend : Progressive Web App.  
 
 
 **Hakan :**  
 
-* Backend : UML charting des différents scripts
+* Backend : UML charting des différents scripts.
 
-* Backend : upload d'image
+* Backend : upload d'image.
 
-* Backend : édition d'un fichier txt en PHP
+* Backend : édition d'un fichier txt en PHP.
 
-* Backend : utilisation d'un serveur SMTP
+* Backend : utilisation d'un serveur SMTP.
 
-* Backend : éviter les injections SQL
+* Backend : éviter les injections SQL.
 
-* Backend : afficher les erreurs à proximité des champs concernés  
+* Backend : afficher les erreurs à proximité des champs concernés.  
 
 
 
