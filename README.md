@@ -46,7 +46,7 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 * Devops : déploiement sur Heroku.
 
 * Frontend/backend : utiliser le lighthouse test pour améliorer son site et atteint un score de minimum 80 pour chaque critère.
- * Moyenne globale de plus de 80% de score dans le lighthouse sauf progressive web app qui a une moyenne de 40%.
+  * Moyenne globale de plus de 80% de score dans le lighthouse sauf progressive web app qui a une moyenne de 40%.
 
 * Frontend : Progressive Web App.  
 
