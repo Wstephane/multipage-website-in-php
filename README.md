@@ -108,15 +108,7 @@ Nous avons devions travailler avec un framework CSS, nous avons décider de pren
 
 ----------------------------------
 
-## Auteure
-
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-
 ## License
 
 
-Le site a été fait avec un template sous license MIT. [LICENSE.md](LICENSE.md) voici le fichier pour les détails.
+Le site a été fait avec un template sous license MIT. [Read.me](https://github.com/Wstephane/multipage-website-in-php/blob/master/READMEtemplate.md) voici le read me pour les détails.
