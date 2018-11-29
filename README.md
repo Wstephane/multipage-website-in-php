@@ -3,7 +3,7 @@
 
 Projet : Fil Rouge "Multipage Website" interstarstup, dans le cadre d'apprentissage à la formation BeCode.
 
-Fait par __Stéphane Wyns__ et __Hakan Poyraz__ fait pendant le 3ième mois de formation à BeCode avec un laps de temps de 2 semaines (brefing iniatile à 1 semaines et rajout de temps supplémentaire car trop court)
+Fait par __Stéphane Wyns__ et __Hakan Poyraz__ fait pendant le 3ième mois de formation à BeCode avec un laps de temps de 2 semaines (brefing iniatile 1 semaines et rajout d'une semaine car temps trop court)
 
 
 ## But de l'exercice
