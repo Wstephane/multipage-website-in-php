@@ -9,7 +9,7 @@ Fait par __Stéphane Wyns__ et __Hakan Poyraz__ fait pendant le 3ième mois de f
 ## But de l'exercice
 
 
-Le but de l'exercice était de travailler en équipe de deux et de pouvoir se partager la charge de travail, travailler donc en équipe et arriver à remplir les objectifs comme si nous étions dans une véritable mission donner par un supérieur dans une agence web, avec un timing serrer. Nous devions faire [un site web] (https://becode-multipage-file-rouge.herokuapp.com/index.php) sur la base [d'un site déjà existant] (http://www.tele-accueil-bruxelles.be/) pour ainsi avoir déjà le contenue du site en lui même et que ne plus devoir faire un nouveau visuel et rajouter de nouvelle fonctionnalité manquante au site de départ telle que un formulaire de contact principalement.
+Le but de l'exercice était de travailler en équipe de deux et de pouvoir se partager la charge de travail, travailler donc en équipe et arriver à remplir les objectifs comme si nous étions dans une véritable mission donner par un supérieur dans une agence web, avec un timing serrer. Nous devions faire [un site web](https://becode-multipage-file-rouge.herokuapp.com/index.php) sur la base [d'un site déjà existant](http://www.tele-accueil-bruxelles.be/) pour ainsi avoir déjà le contenue du site en lui même et que ne plus devoir faire un nouveau visuel et rajouter de nouvelle fonctionnalité manquante au site de départ telle que un formulaire de contact principalement.
 
 
 ## Lien des consignes
