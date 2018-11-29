@@ -32,7 +32,7 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 
 **Stéphane :**    
 
-* Groupe : Agile (manipulation tableau kanban) + tenue quotidienne du [planning du groupe.] (https://github.com/Wstephane/multipage-website-in-php/projects/1)
+* Groupe : Agile (manipulation tableau kanban) + tenue quotidienne du [planning du groupe.](https://github.com/Wstephane/multipage-website-in-php/projects/1)
 
 * Groupe : être le capitaine du repos, qui gère les merge et les conflits.
 
