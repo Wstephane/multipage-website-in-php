@@ -67,13 +67,13 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 
 
 
-## Lien vers le site fait par nous même.
+## Lien vers notre site
 
 
   https://becode-multipage-file-rouge.herokuapp.com/index.php
 
 
-## Lien vers le site de base à transformer
+## Lien vers le site d'origine
 
 
   http://www.tele-accueil-bruxelles.be/
