@@ -17,7 +17,7 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 
 ## Attribution des tâches de l'équipe
 
-Front-End : Stéphane Wyns
+Front-End : Stéphane Wyns  
 Back-End : Hakan Poyraz
 
 
