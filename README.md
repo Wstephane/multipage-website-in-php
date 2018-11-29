@@ -21,14 +21,15 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 ## Attribution des tâches de l'équipe
 
 
-Front-End : Stéphane Wyns  
+**Front-End** : Stéphane Wyns  
 
-Back-End : Hakan Poyraz  
+**Back-End** : Hakan Poyraz  
 
 
-Liste du briefing :
+### Liste du briefing :
 
-Stéphane :
+
+**Stéphane :**
 
 * Groupe : Agile (manipulation tableau kanban) + tenue quotidienne du planning du groupe
 
@@ -47,7 +48,7 @@ Stéphane :
 * Frontend : Progressive Web App
 
 
-Hakan :
+**Hakan :**
 
 * Backend : UML charting des différents scripts
 
