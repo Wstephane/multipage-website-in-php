@@ -26,10 +26,10 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 **Back-End** : Hakan Poyraz  
 
 
-### Liste du briefing :
+### Liste du briefing :  
 
 
-**Stéphane :**
+**Stéphane :**  
 
 * Groupe : Agile (manipulation tableau kanban) + tenue quotidienne du planning du groupe
 
@@ -45,10 +45,10 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 
 * Frontend/backend : utiliser le lighthouse test pour améliorer son site et atteint un score de minimum 80 pour chaque critère.
 
-* Frontend : Progressive Web App
+* Frontend : Progressive Web App  
 
 
-**Hakan :**
+**Hakan :**  
 
 * Backend : UML charting des différents scripts
 
@@ -60,7 +60,7 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 
 * Backend : éviter les injections SQL
 
-* Backend : afficher les erreurs à proximité des champs concernés
+* Backend : afficher les erreurs à proximité des champs concernés  
 
 
 
