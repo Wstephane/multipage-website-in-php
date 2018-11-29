@@ -98,14 +98,16 @@ Oui
 
 ## Front-End
 
-Nous avons décider de prendre une template déjà fait et de le changer pour le faire convenir à notre sujet de site et puis de rajouter le contenue. Bien entendu au vue de la taille du site de base et du fait que nous étions limiter à maxium 5 pages pour notre site web, nous avons du incorper ce qui nous semblaient le plus important comme information.
+Nous avons décider de prendre [un template](https://startbootstrap.com/template-overviews/business-casual/) et de le changer pour le faire convenir à notre sujet de site et puis de rajouter le contenue. Bien entendu au vue de la taille du site de base et du fait que nous étions limiter à maxium 5 pages pour notre site web, nous avons du incorper ce qui nous semblaient le plus important comme information.
 
 Nous avons devions travailler avec un framework CSS, nous avons décider de prendre bootstrap ce qui me permettrait de travailler et d'apprendre à utiliser Bootstrap.
 
 
 ----------------------------------
 
-## License
+## License et Copyright
 
 
 Le site a été fait avec un template "Business Casual" sous license MIT. [Read.me](https://github.com/Wstephane/multipage-website-in-php/blob/master/READMEtemplate.md) voici le read me pour les détails.
+
+Copyright 2013-2018 Blackrock Digital LLC
