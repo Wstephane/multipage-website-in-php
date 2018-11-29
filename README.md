@@ -23,7 +23,44 @@ https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-p
 
 Front-End : Stéphane Wyns  
 
-Back-End : Hakan Poyraz
+Back-End : Hakan Poyraz  
+
+
+Liste du briefing :
+
+Stéphane :
+
+* Groupe : Agile (manipulation tableau kanban) + tenue quotidienne du planning du groupe
+
+* Groupe : être le capitaine du repos, qui gère les merge et les conflits
+
+* UX : branding
+
+* UX : mentions GDPR et Copyright pour informer l'utilisateur de l'utilité de fournir les données
+
+* Frontend : sélection et mise en place d'un framework CSS
+
+* Devops : déploiement sur Heroku
+
+* Frontend/backend : utiliser le lighthouse test pour améliorer son site et atteint un score de minimum 80 pour chaque critère.
+
+* Frontend : Progressive Web App
+
+
+Hakan :
+
+* Backend : UML charting des différents scripts
+
+* Backend : upload d'image
+
+* Backend : édition d'un fichier txt en PHP
+
+* Backend : utilisation d'un serveur SMTP
+
+* Backend : éviter les injections SQL
+
+* Backend : afficher les erreurs à proximité des champs concernés
+
 
 
 ## Lien vers le site fait par nous même.
