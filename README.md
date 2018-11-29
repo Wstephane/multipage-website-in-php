@@ -110,4 +110,4 @@ Nous avons devions travailler avec un framework CSS, nous avons décider de pren
 
 Le site a été fait avec un template "Business Casual" sous license MIT. [Read.me](https://github.com/Wstephane/multipage-website-in-php/blob/master/READMEtemplate.md) voici le read me pour les détails.
 
-Copyright 2013-2018 Blackrock Digital LLC
+Copyright **David Miller** 2013-2018 Blackrock Digital LLC
