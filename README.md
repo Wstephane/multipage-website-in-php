@@ -23,12 +23,12 @@ Back-End : Hakan Poyraz
 
 ## Lien vers le site fait par nous même.
 
-* https://becode-multipage-file-rouge.herokuapp.com/index.php
+  https://becode-multipage-file-rouge.herokuapp.com/index.php
 
 
 ## Lien vers le site de base à transformer
 
-* http://www.tele-accueil-bruxelles.be/
+  http://www.tele-accueil-bruxelles.be/
 
 
 ### Langages utilisés
